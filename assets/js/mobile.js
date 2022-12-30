@@ -24,6 +24,18 @@ function isMobile() {
 	if (link === ("https://baodaigov.github.io/m/index.html") || link === ("https://baodaigov.github.io/m/")){
 		window.location = "http://baodaigov.github.io/index.html";
 	}
+	else 
+	{
+				link = link.replace("https://baodaigov.github.io/m/tintuc/","tintuc/");
+				link = link.replace("https://baodaigov.github.io/m/tintuc/index.html","tintuc/index.html");
+				link = link.replace("https://baodaigov.github.io/m/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
+				link = link.replace("https://baodaigov.github.io/m/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+				if (!link.includes("https://baodaigov.github.io/m/"))
+					window.location = "https://baodaigov.github.io/" + link;
+				else 
+					window.location = "https://baodaigov.github.io/index.html";
+		
+	} 
   }
   function changeLinkDesktop2Mobile(link)
   {
@@ -32,6 +44,18 @@ function isMobile() {
 	  { 
 		  window.location = "https://baodaigov.github.io/m/index.html";
 	  }
+	  else 
+	  {
+				  link = link.replace("https://baodaigov.github.io/tintuc/","tintuc/");
+				  link = link.replace("https://baodaigov.github.io/tintuc/index.html","tintuc/index.html");
+				  link = link.replace("https://baodaigov.github.io/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
+				  link = link.replace("https://baodaigov.github.io/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+				  if (!link.includes("https://baodaigov.github.io/"))
+					  window.location = "https://baodaigov.github.io/m/" + link;
+				  else 
+					  window.location = "https://baodaigov.github.io/m/index.html";
+		  
+	  } 
 
   }		
 	  
@@ -89,6 +113,18 @@ function isMobile() {
 // 	if (link === ("http://127.0.0.1:5502/m/index.html") || link === ("http://127.0.0.1:5502/m/")){
 // 		window.location = "http://127.0.0.1:5502/index.html";
 // 	}
+// 	else 
+// 	{
+// 				link = link.replace("http://127.0.0.1:5502/m/tintuc/","tintuc/");
+// 				link = link.replace("http://127.0.0.1:5502/m/tintuc/index.html","tintuc/index.html");
+// 				link = link.replace("http://127.0.0.1:5502/m/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
+// 				link = link.replace("http://127.0.0.1:5502/m/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+// 				if (!link.includes("http://127.0.0.1:5502/m/"))
+// 					window.location = "http://127.0.0.1:5502/" + link;
+// 				else 
+// 					window.location = "http://127.0.0.1:5502/index.html";
+		
+// 	} 
 //   }
 //   function changeLinkDesktop2Mobile(link)
 //   {
@@ -97,6 +133,18 @@ function isMobile() {
 // 	  { 
 // 		  window.location = "http://127.0.0.1:5502/m/index.html";
 // 	  }
+// 	  else 
+// 	  {
+// 				  link = link.replace("http://127.0.0.1:5502/tintuc/","tintuc/");
+// 				  link = link.replace("http://127.0.0.1:5502/tintuc/index.html","tintuc/index.html");
+// 				  link = link.replace("http://127.0.0.1:5502/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
+// 				  link = link.replace("http://127.0.0.1:5502/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+// 				  if (!link.includes("http://127.0.0.1:5502/"))
+// 					  window.location = "http://127.0.0.1:5502/m/" + link;
+// 				  else 
+// 					  window.location = "http://127.0.0.1:5502/m/index.html";
+		  
+// 	  } 
   
 //   }		
 	  
