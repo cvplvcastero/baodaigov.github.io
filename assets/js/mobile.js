@@ -30,6 +30,8 @@ function isMobile() {
 				link = link.replace("https://baodaigov.github.io/m/tintuc/index.html","tintuc/index.html");
 				link = link.replace("https://baodaigov.github.io/m/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
 				link = link.replace("https://baodaigov.github.io/m/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+				link = link.replace("https://baodaigov.github.io/m/become_a_citizen/","become_a_citizen/");
+				link = link.replace("https://baodaigov.github.io/m/become_a_citizen/index.html","become_a_citizen/index.html");
 				if (!link.includes("https://baodaigov.github.io/m/"))
 					window.location = "https://baodaigov.github.io/" + link;
 				else 
@@ -50,6 +52,8 @@ function isMobile() {
 				  link = link.replace("https://baodaigov.github.io/tintuc/index.html","tintuc/index.html");
 				  link = link.replace("https://baodaigov.github.io/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
 				  link = link.replace("https://baodaigov.github.io/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+				  link = link.replace("https://baodaigov.github.io/become_a_citizen/","become_a_citizen/");
+				  link = link.replace("https://baodaigov.github.io/become_a_citizen/index.html","become_a_citizen/index.html");
 				  if (!link.includes("https://baodaigov.github.io/"))
 					  window.location = "https://baodaigov.github.io/m/" + link;
 				  else 
@@ -119,6 +123,8 @@ function isMobile() {
 // 				link = link.replace("http://127.0.0.1:5502/m/tintuc/index.html","tintuc/index.html");
 // 				link = link.replace("http://127.0.0.1:5502/m/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
 // 				link = link.replace("http://127.0.0.1:5502/m/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+// 				link = link.replace("http://127.0.0.1:5502/m/become_a_citizen/","become_a_citizen/");
+// 				link = link.replace("http://127.0.0.1:5502/m/become_a_citizen/index.html","become_a_citizen/index.html");
 // 				if (!link.includes("http://127.0.0.1:5502/m/"))
 // 					window.location = "http://127.0.0.1:5502/" + link;
 // 				else 
@@ -139,6 +145,8 @@ function isMobile() {
 // 				  link = link.replace("http://127.0.0.1:5502/tintuc/index.html","tintuc/index.html");
 // 				  link = link.replace("http://127.0.0.1:5502/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html","tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html");
 // 				  link = link.replace("http://127.0.0.1:5502/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
+// 				  link = link.replace("http://127.0.0.1:5502/become_a_citizen/","become_a_citizen/");
+// 				  link = link.replace("http://127.0.0.1:5502/become_a_citizen/index.html","become_a_citizen/index.html");
 // 				  if (!link.includes("http://127.0.0.1:5502/"))
 // 					  window.location = "http://127.0.0.1:5502/m/" + link;
 // 				  else 
