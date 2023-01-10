@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html dir="ltr" lang="vi">
 <head>
   
   <title>Cổng Thông tin điện tử Chính phủ Bảo Đại</title>
@@ -101,6 +101,28 @@
           <div class="selectorbtn" onclick="window.location.href='/m/tintuc/';">TIN TỨC - SỰ KIỆN</div>
           <div class="selectorbtn" onclick="window.location.href='https:\/\/baodaigov.github.io\/dichvucong';">DV CÔNG TRỰC TUYẾN</div>
           <div class="selectorbtn" onclick="window.location.href='/m/become_a_citizen/';">TRỞ THÀNH CÔNG DÂN</div>
+          <style>
+            .search_area{border: none;margin: 0;background:#004080;height:30px;}.search_area .search_content{background: #fff;border: 1px solid #636363;width: 100%;height:25px;outline: none;font-family: "GG Sans Bold", Arial, Helvetica, sans-serif;}
+          </style>
+          <div class="search_area">
+            <div style="padding:3px;">
+              <input type='text' name='search' id='scontent' class='search_content' placeholder="Tìm kiếm..." autocomplete='off'/>
+            </div>
+          </div>
+          <script type="text/javascript">
+									$(document).ready(function () {
+										$('input[id="scontent"]').keypress(function (e) {
+								            if (e.keyCode === 13) {
+								                e.preventDefault();
+								                var inputSearch = $('input[id="scontent"]').val().trim();
+								                inputSearch = encodeURIComponent(inputSearch);
+								                window.location.assign("https://www.google.com/search?q=" + inputSearch.trim().replace("\"", ""));
+								                return false;
+								            }
+								            
+								        });									        									
+									});
+          </script>
         </div>
         <script type="text/javascript" src="/assets/js/m/index.js"></script>
       <div class="content_wrapper">
@@ -176,17 +198,39 @@ function fontMinus() {
               <div class="panel_body">
                 <div class="panel_block">
                   <div class="panelTITLE">Số ca nhiễm (trong 24h qua)</div>
-                  <div class="cases">11.5 triệu người</div>
+                  <div class="cases infected"></div>
                 </div>
                 <div class="panel_block">
                   <div class="panelTITLE">Khỏi</div>
-                  <div class="cases">10.6 triệu người</div>
+                  <div class="cases recovered">10.6 triệu người</div>
                 </div>
                 <div class="panel_block">
                   <div class="panelTITLE">Tử vong</div>
-                  <div class="cases">43.1 nghìn người</div>
+                  <div class="cases deceased">43.1 nghìn người</div>
                 </div>
               </div>
+              <script>
+                const api = "https://api.apify.com/v2/key-value-stores/ZsOpZgeg7dFS1rgfM/records/LATEST";
+
+                const getData = async function() {
+                  const getJsonData = await fetch(api);
+                  const cases = await getJsonData.json();
+                  return cases;
+                }
+
+                const output = function() {
+                  getData().then(cases => {
+                    const infected = cases.infected;
+                    const recovered = cases.recovered;
+                    const deceased = cases.deceased;
+                    $('.infected').text(`${infected.toLocaleString()} người`);
+                    $('.recovered').text(`${recovered.toLocaleString()} người`);
+                    $('.deceased').text(`${deceased.toLocaleString()} người`);
+                  })
+                }
+
+                output();
+              </script>
             </div>
             <img src="/assets/image/05F361B5-9CEE-41C9-8A0F-39AC000A066E.gif" alt="Tiếp nhận phản ánh, kiến nghị về quy định hành chính: 02973.919.798" width="100%"/>
           </div>

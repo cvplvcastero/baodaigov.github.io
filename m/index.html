@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html dir="ltr" lang="vi">
 <head>
   
   <title>Cổng Thông tin điện tử Chính phủ Bảo Đại</title>
@@ -101,6 +101,28 @@
           <div class="selectorbtn" onclick="window.location.href='/m/tintuc/';">TIN TỨC - SỰ KIỆN</div>
           <div class="selectorbtn" onclick="window.location.href='https:\/\/baodaigov.github.io\/dichvucong';">DV CÔNG TRỰC TUYẾN</div>
           <div class="selectorbtn" onclick="window.location.href='/m/become_a_citizen/';">TRỞ THÀNH CÔNG DÂN</div>
+          <style>
+            .search_area{border: none;margin: 0;background:#004080;height:30px;}.search_area .search_content{background: #fff;border: 1px solid #636363;width: 100%;height:25px;outline: none;font-family: "GG Sans Bold", Arial, Helvetica, sans-serif;}
+          </style>
+          <div class="search_area">
+            <div style="padding:3px;">
+              <input type='text' name='search' id='scontent' class='search_content' placeholder="Tìm kiếm..." autocomplete='off'/>
+            </div>
+          </div>
+          <script type="text/javascript">
+									$(document).ready(function () {
+										$('input[id="scontent"]').keypress(function (e) {
+								            if (e.keyCode === 13) {
+								                e.preventDefault();
+								                var inputSearch = $('input[id="scontent"]').val().trim();
+								                inputSearch = encodeURIComponent(inputSearch);
+								                window.location.assign("https://www.google.com/search?q=" + inputSearch.trim().replace("\"", ""));
+								                return false;
+								            }
+								            
+								        });									        									
+									});
+          </script>
         </div>
       <script type="text/javascript" src="/assets/js/m/index.js"></script>
       <div class="content_wrapper">
@@ -125,7 +147,7 @@
                   </div>
                   <h2>Tổng thống Đào Thanh Minh gởi lời chúc mừng năm mới</h2>
                   <p> - Ngày 31-12, Tổng thống Đào Thanh Minh đã gởi lời chúc mừng nhân dịp bước sang năm mới 2023, đồng thời cũng chúc Tết nguyên đán đến toàn thể nhân dân.
-                    "Năm 2023 đang tới, tôi gởi lời chân thành cầu mong các bạn từ các tĩnh và thành phố được phù hộ và an lành trong năm mới, chúng ta sẽ cùng nhau vươt mọi khó khăn... <a href='/tintuc/tong_thong_dao_thanh_minh_chuc_mung_nam_moi.html'>Xem chi tiết</a></p>
+                    "Năm 2023 đang tới, tôi gởi lời chân thành cầu mong các bạn từ các tĩnh và thành phố được phù hộ và an lành trong năm mới, chúng ta sẽ cùng nhau vươt mọi khó khăn... <a href='/m/tintuc/tong_thong_dao_thanh_minh_chuc_mung_nam_moi.html'>Xem chi tiết</a></p>
                 </div>
                 <div class="news" id="newsBlock">
                   <img src="/assets/image/1200px-RFI_logo_2013.png" alt="" width="100%" height="200px"/>
@@ -135,7 +157,7 @@
                     <span class="news-author">BDN</span>
                   </div>
                   <h2>Đào Thanh Minh nói sẽ 'phang' CSBĐ cùng với các đồng minh nếu tiếp tục sỉ nhục Chính quyền</h2>
-                  <p> - Tối 8/12, trả lời phỏng vấn của đài phát thanh quốc tế RFI, về việc nêu ý kiến của ông về những lời sỉ nhục từ phía chính quyền CSBĐ, Đại tướng Đào Thanh Minh – Tổng thống Quốc gia Bảo Đại cho rằng:<br/>Tôi đã nghĩ đến những điều mình sẽ nói trước tiên trong giây phút này. Phải nói rằng khi bên Cộng sản Bảo Đại đã chính thức chiếm được... <a href='/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html'>Xem chi tiết</a></p>
+                  <p> - Tối 8/12, trả lời phỏng vấn của đài phát thanh quốc tế RFI, về việc nêu ý kiến của ông về những lời sỉ nhục từ phía chính quyền CSBĐ, Đại tướng Đào Thanh Minh – Tổng thống Quốc gia Bảo Đại cho rằng:<br/>Tôi đã nghĩ đến những điều mình sẽ nói trước tiên trong giây phút này. Phải nói rằng khi bên Cộng sản Bảo Đại đã chính thức chiếm được... <a href='/m/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html'>Xem chi tiết</a></p>
                 </div>
                 <div class="news" id="newsBlock">
                   <img src="/assets/image/chien_tranh_vinh_thuy.jpeg" alt="" width="100%" height="200px"/>
@@ -145,7 +167,7 @@
                     <span class="news-author">BDN</span>
                   </div>
                   <h2>Tổng thống Quốc gia Bảo Đại kêu gọi Pháp viện trợ quân sự</h2>
-                  <p> - Vừa mới đây, tổng thống Chính quyền Bảo Đại (Đào Thanh Minh) đã yêu cầu Chính phủ Pháp viện trợ nước ngoài dành cho Quốc gia Bảo Đại đã bị cách xa khỏi đất liền sau khi CHND Bảo Đại chiếm toàn bộ vùng lãnh thổ gần đây nhất. Ông cho rằng chính phủ Pháp cần dùng những số tiền trên để trợ giúp cho một cuộc chiến tranh giữa 2 chế độ ch... <a href='/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html'>Xem chi tiết</a></p>
+                  <p> - Vừa mới đây, tổng thống Chính quyền Bảo Đại (Đào Thanh Minh) đã yêu cầu Chính phủ Pháp viện trợ nước ngoài dành cho Quốc gia Bảo Đại đã bị cách xa khỏi đất liền sau khi CHND Bảo Đại chiếm toàn bộ vùng lãnh thổ gần đây nhất. Ông cho rằng chính phủ Pháp cần dùng những số tiền trên để trợ giúp cho một cuộc chiến tranh giữa 2 chế độ ch... <a href='/m/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html'>Xem chi tiết</a></p>
                 </div>
                 <div class="news" id="newsBlock">
                   <img src="/assets/image/quoc_gia_bao_dai_dang_thu_nghiem_cuoc_phong_ten_lua.jpg" alt="" width="100%" height="200px"/>
