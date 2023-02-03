@@ -61,15 +61,20 @@ function isMobile() {
 					  window.location = "https://baodaigov.github.io/m/index.html";
 
 	  }
-	  $(function(){
+
+  }
+
+  $(function(){
 	async function makeRequest() {
 	  try {
 	    const response = await fetch('https://randomuser.me/api/');
 
 	    if(response.status == 200){
-		console.log("200 OK")
+			console.log("200 OK")
 	    } else if(response.status == 404){
-		window.location = "https://baodaigov.github.io/m/404.html";
+			if(isMobile()){
+				window.location = "https://baodaigov.github.io/m/404.html";
+			}
 	    }
 	  } catch (err) {
 	    console.log(err);
@@ -78,8 +83,6 @@ function isMobile() {
 
 	makeRequest();
   })
-
-  } 
 
   $(function() {
 		 var linkD = window.location.toString();
