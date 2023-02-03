@@ -61,10 +61,7 @@ function isMobile() {
 					  window.location = "https://baodaigov.github.io/m/index.html";
 
 	  }
-
-  }
-
-  $(function(){
+	  $(function(){
 	async function makeRequest() {
 	  try {
 	    const response = await fetch('https://randomuser.me/api/');
@@ -81,6 +78,8 @@ function isMobile() {
 
 	makeRequest();
   })
+
+  } 
 
   $(function() {
 		 var linkD = window.location.toString();
