@@ -41,7 +41,7 @@ function isMobile() {
   }
   function changeLinkDesktop2Mobile(link)
   {
- 
+
 	  if (link === ("https://baodaigov.github.io/index.html") || link === ("https://baodaigov.github.io/") )
 	  {
 		  window.location = "https://baodaigov.github.io/m/index.html";
@@ -54,7 +54,7 @@ function isMobile() {
 				  link = link.replace("https://baodaigov.github.io/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html","tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html");
 				  link = link.replace("https://baodaigov.github.io/become_a_citizen/","become_a_citizen/");
 				  link = link.replace("https://baodaigov.github.io/become_a_citizen/index.html","become_a_citizen/index.html");
-					link = link.replace("https://baodaigov.github.io/404.html","/404.html");
+
 				  if (!link.includes("https://baodaigov.github.io/"))
 					  window.location = "https://baodaigov.github.io/m/" + link;
 				  else
