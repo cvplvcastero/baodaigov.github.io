@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+	xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>
+			<![CDATA[Cổng Thông tin điện tử Chính phủ Bảo Đại]]>
+		</title>
+		<description>
+			<![CDATA[Cổng Thông tin điện tử Chính phủ Bảo Đại]]>
+		</description>
+		<link>https://baodaigov.github.io/tintuc</link>
+		<image>
+			<url>https://baodaigov.github.io/assets/image/favicon.ico</url>
+			<title>Cổng Thông tin điện tử Chính phủ Bảo Đại</title>
+			<link>https://baodaigov.github.io/tintuc</link>
+		</image>
+		<atom:link href="https://baodaigov.github.io/tintuc/feed.rss" rel="self" type="application/rss+xml"/>
+		<language>
+			<![CDATA[vi]]>
+		</language>
+		<item>
+			<title>
+				<![CDATA[Tổng thống Đào Thanh Minh gởi lời chúc mừng năm mới]]>
+			</title>
+			<description>
+				<![CDATA[Ngày 31-12, Tổng thống Đào Thanh Minh đã gởi lời chúc mừng nhân dịp bước sang năm mới 2023, đồng thời cũng chúc Tết nguyên đán đến toàn thể nhân dân. Trong lời chúc năm mới tới toàn thể nhân dân, Tổng thống đã nói rằng, năm 2022 là năm mà chúng ta đã vượt qua các thử thách gian nan của thời gian, để có thể đạt được nhiều thành tựu quan trọng trên tất cả các lĩnh vực, để đất nước có thể phát triển theo chiều hướng tích cực dù cho có rất nhiều biến cố đang xảy ra đối với tình hình của quốc tế.]]>
+			</description>
+			<link>https://baodaigov.github.io/tintuc/tong_thong_dao_thanh_minh_chuc_mung_nam_moi.html</link>
+			<dc:creator>
+				<![CDATA[BDN]]>
+			</dc:creator>
+			<pubDate>31/12/2022</pubDate>
+			<media:content medium="image" url="https://baodaigov.github.io/assets/image/mung_xuan_quy_mao_2023.jpg"/>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Đào Thanh Minh nói sẽ 'phang' CSBĐ cùng với các đồng minh nếu tiếp tục sỉ nhục Chính quyền]]>
+			</title>
+			<description>
+				<![CDATA[Tối 8/12, trả lời phỏng vấn của đài phát thanh quốc tế RFI, về việc nêu ý kiến của ông về những lời sỉ nhục từ phía chính quyền CSBĐ, Đại tướng Đào Thanh Minh – Tổng thống Quốc gia Bảo Đại cho rằng: Tôi đã nghĩ đến những điều mình sẽ nói trước tiên trong giây phút này. Phải nói rằng khi bên Cộng sản Bảo Đại đã chính thức chiếm được tầm kiểm soát của toàn vẹn lãnh thổ thì đấy là một tin vui mừng với bà con theo XHCN, nhưng trong lúc đó bọn họ không hề đề cập đến cảm xúc của bọn tôi sau khi bị đá khỏi đất mẹ, đấy là điều mà tôi cực kì ghét. Khi nhìn thấy những lời nói sỉ nhục đồng bào chúng tôi, tôi vô cùng buồn và lại vô cùng tức giận. Hôm nay tôi lên đây để cho CSBĐ 2 lời khuyên cuối cùng, nếu mà bên đó dám từ chối và tiếp tục chống đối thì cho dù bao nhiêu đồng minh bên phe bọn họ thì tôi và quân lực cũng sẽ đánh bại và giành lại độc lập.]]>
+			</description>
+			<link>https://baodaigov.github.io/tintuc/dao_thanh_minh_noi_se_phang_csbd_cung_voi_cac_dong_minh_neu_tiep_tuc_si_nhuc_chinh_quyen.html</link>
+			<dc:creator>
+				<![CDATA[BDN]]>
+			</dc:creator>
+			<pubDate>08/12/2022</pubDate>
+			<media:content medium="image" url="https://baodaigov.github.io/assets/image/1200px-RFI_logo_2013.png"/>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Tổng thống Quốc gia Bảo Đại kêu gọi Pháp viện trợ quân sự]]>
+			</title>
+			<description>
+				<![CDATA[Vừa mới đây, tổng thống Chính quyền Bảo Đại (Đào Thanh Minh) đã yêu cầu Chính phủ Pháp viện trợ nước ngoài dành cho Quốc gia Bảo Đại đã bị cách xa khỏi đất liền sau khi CHND Bảo Đại chiếm toàn bộ vùng lãnh thổ gần đây nhất. Ông cho rằng chính phủ Pháp cần dùng những số tiền trên để trợ giúp cho một cuộc chiến tranh giữa 2 chế độ chính trị khác nhau nhằm khôi phục lại chế độ hào quang nhất.]]>
+			</description>
+			<link>https://baodaigov.github.io/tintuc/cuu_tong_thong_quoc_gia_bao_dai_keu_goi_phap_vien_tro_quan_su.html</link>
+			<dc:creator>
+				<![CDATA[BDN]]>
+			</dc:creator>
+			<pubDate>06/12/2022</pubDate>
+			<media:content medium="image" url="https://baodaigov.github.io/assets/image/chien_tranh_vinh_thuy.jpeg"/>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Quốc gia Bảo Đại đang thử nghiệm cuộc phóng tên lửa, dự định sẽ áp dụng chiến thuật vào chiến đấu]]>
+			</title>
+			<description>
+				<![CDATA[Sáng 5/12, các quan chức của bộ máy chính quyền Cộng sản Bảo Đại cho biết Quốc gia Bảo Đại đang chuẩn bị mở một cuộc thử nghiệm phóng tên lửa đạn đạo. Theo Bộ trưởng Quốc phòng CHND Bảo Đại Đào Thị Cẩm, Quốc gia Bảo Đại sẽ phóng lần lươt 2 tên lửa đầu tiên vào khoảng 6h30-7h00 sáng theo giờ địa phương. Trong đó, cả 2 tên lửa sẽ đạt độ c...]]>
+			</description>
+			<link>https://bit.do/YeetYeet</link>
+			<dc:creator>
+				<![CDATA[BDN]]>
+			</dc:creator>
+			<pubDate>05/12/2022</pubDate>
+			<media:content medium="image" url="https://baodaigov.github.io/assets/image/quoc_gia_bao_dai_dang_thu_nghiem_cuoc_phong_ten_lua.jpg"/>
+		</item>
+		<item>
+			<title>
+				<![CDATA[CHND Bảo Đại bắn cảnh cáo tàu Quốc gia Bảo Đại, tàu QGBĐ bắn pháo đáp trả]]>
+			</title>
+			<description>
+				<![CDATA[Tàu Quốc gia Bảo Đại đã bắn 5 quả đạn pháo vào khoảng 7h25 sáng 1/12 sau khi Quân đội Nhân dân Bảo Đại bắn cảnh cáo con tàu Quốc gia Bảo Đại do tàu này vượt qua ranh giới trên biển của Việt Nam. Theo Bộ tổng tham mưu Quân đội Nhân dân Bảo Đại cho biết quân đội nước QGBĐ đã bắn 5 quả đạn pháo vào vùng biển phía Tây nước Việt Nam sáng 1/1...]]>
+			</description>
+			<link>https://bit.do/YeetYeet</link>
+			<dc:creator>
+				<![CDATA[BDN]]>
+			</dc:creator>
+			<pubDate>01/12/2022</pubDate>
+			<media:content medium="image" url="https://baodaigov.github.io/assets/image/chnd_bao_dai_ban_canh_cao_tau_quoc_gia_bao_dai.jpg"/>
+		</item>
+		<item>
+			<title>
+				<![CDATA[Chính phủ Pháp giám sát diễn tập hạt nhân của Quốc gia Bảo Đại]]>
+			</title>
+			<description>
+				<![CDATA[“Quả là một thành công bên phía chúng tôi. Tính hiệu quả và khả năng chiến đấu thực tế của lực lượng tác chiến hạt nhân được thể hiện đầy đủ. Chúng tôi hoàn toàn sẵn sàng tấn công và tiêu diệt các mục tiêu bất cứ lúc nào và từ bất kỳ vị trí nào”, tổng thống Emmanuel Macron nói. Chính phủ Pháp tuyên bố sẽ tăng cường các hoạt động quân sự...]]>
+			</description>
+			<link>https://bit.do/YeetYeet</link>
+			<dc:creator>
+				<![CDATA[BDN]]>
+			</dc:creator>
+			<pubDate>29/11/2022</pubDate>
+			<media:content medium="image" url="https://baodaigov.github.io/assets/image/chinh_phu_phap_giam_sat_dien_tap_hat_nhan.jpg"/>
+		</item>
+	</channel>
+</rss>
