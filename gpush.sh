@@ -12,7 +12,7 @@ git add --all .
 
 read -r -p 'Vui lòng nhập message commit vô đây: ' msg
 
-git commit -m "$msg"
+git commit -m "[$(date +'%m/%d/%Y')]: $msg"
 
 git push -f -u origin master
 
