@@ -17,7 +17,7 @@
 			<title>Cổng Thông tin điện tử Chính phủ Bảo Đại</title>
 			<link>https://baodaigov.github.io/tintuc</link>
 		</image>
-		<atom:link href="https://baodaigov.github.io/tintuc/feed.rss" rel="self" type="application/rss+xml"/>
+		<atom:link href="https://baodaigov.github.io/tintuc/feed.xml" rel="self" type="application/rss+xml"/>
 		<language>
 			<![CDATA[vi]]>
 		</language>
