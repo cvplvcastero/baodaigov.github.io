@@ -81,6 +81,7 @@
     else {
       console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
     }
+
     // ]]>
   </script>
   <style>
@@ -107,8 +108,7 @@
           let year = d.getFullYear();
           let month = d.getMonth() + 1;
           let day = d.getDate();
-          let dayofweek = d.getDay();
-
+          let dayofweek = d.getDay(); 
           const dayname = ['CN','T2','T3','T4','T5','T6','T7'];
 
           document.getElementById('informations_formatDate').textContent=dayname[dayofweek] + ', '+ day + '/' + month+ '/'+ year;
@@ -189,6 +189,17 @@
               </h5>
               <div class="news_placeholder">Tin tức đáng chú ý</div>
               <div class="news_block">
+		<div class="news" id="newsBlock">
+                  <img src="/assets/image/china-balloon.webp" alt="" width="100%" height="200px"/>
+                  <div style="margin: 0;margin-top:10px;">
+                    <span class="news-date">02/08/2023</span>
+                    -
+                    <span class="news-author">BDN</span>
+                  </div>
+                  <h2>Mỹ bắn hạ khinh khí cầu Trung Quốc xâm nhập không phận Hoa Kỳ</h2>
+                  <p> - Ngày 28/1, khinh khí cầu Trung Quốc bất ngờ xuất hiện trên bầu trời nước Mỹ; mãi cho tới ngày 4/2, không quân Hoa Kỳ dùng tên lửa bắn hạ khinh khí cầu do thám Hoa Kỳ.
+Tổng thống Joe Biden hết lòng khen ngợi các phi công đã hoàn thành nhiệm vụ, mặc dù Joe Biden đã ra lệnh bắn hạ khinh khí cầu vào ngày 1/2, nhưng Lầu Năm Góc khuyến nghị... <a href='/tintuc/my_ban_ha_khinh_khi_cau_trung_quoc.html'>Xem chi tiết</a></p>
+                </div>
                 <div class="news" id="newsBlock">
                   <img src="/assets/image/mung_xuan_quy_mao_2023.jpg" alt="" width="100%" height="200px"/>
                   <div style="margin: 0;margin-top:10px;">

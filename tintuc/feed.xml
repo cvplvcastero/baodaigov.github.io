@@ -23,6 +23,20 @@
 		</language>
 		<item>
 			<title>
+				<![CDATA[Mỹ bắn hạ khinh khí cầu Trung Quốc xâm nhập không phận Hoa Kỳ]]>
+			</title>
+			<description>
+				<![CDATA[Ngày 28/1, khinh khí cầu Trung Quốc bất ngờ xuất hiện trên bầu trời nước Mỹ; mãi cho tới ngày 4/2, không quân Hoa Kỳ dùng tên lửa bắn hạ khinh khí cầu do thám Hoa Kỳ. Tổng thống Joe Biden hết lòng khen ngợi các phi công đã hoàn thành nhiệm vụ, mặc dù Joe Biden đã ra lệnh bắn hạ khinh khí cầu vào ngày 1/2, nhưng Lầu Năm Góc khuyến nghị nên đợi cho đến khi có thể thực hiện việc này ở một vùng nước rộng lớn để bảo vệ sinh mạng của bất kỳ một công dân nước Mỹ khỏi các mảnh vỡ rơi xuống từ độ cao hàng nghìn mét.]]>
+			</description>
+			<link>https://baodaigov.github.io/tintuc/my_ban_ha_khinh_khi_cau_trung_quoc.html</link>
+			<dc:creator>
+				<![CDATA[BDN]]>
+			</dc:creator>
+			<pubDate>02/08/2023</pubDate>
+			<media:content medium="image" url="https://baodaigov.github.io/assets/image/china-balloon.webp"/>
+		</item>
+		<item>
+			<title>
 				<![CDATA[Tổng thống Đào Thanh Minh gởi lời chúc mừng năm mới]]>
 			</title>
 			<description>
@@ -32,7 +46,7 @@
 			<dc:creator>
 				<![CDATA[BDN]]>
 			</dc:creator>
-			<pubDate>31/12/2022</pubDate>
+			<pubDate>12/31/2022</pubDate>
 			<media:content medium="image" url="https://baodaigov.github.io/assets/image/mung_xuan_quy_mao_2023.jpg"/>
 		</item>
 		<item>
@@ -46,7 +60,7 @@
 			<dc:creator>
 				<![CDATA[BDN]]>
 			</dc:creator>
-			<pubDate>08/12/2022</pubDate>
+			<pubDate>12/08/2022</pubDate>
 			<media:content medium="image" url="https://baodaigov.github.io/assets/image/1200px-RFI_logo_2013.png"/>
 		</item>
 		<item>
@@ -60,7 +74,7 @@
 			<dc:creator>
 				<![CDATA[BDN]]>
 			</dc:creator>
-			<pubDate>06/12/2022</pubDate>
+			<pubDate>12/06/2022</pubDate>
 			<media:content medium="image" url="https://baodaigov.github.io/assets/image/chien_tranh_vinh_thuy.jpeg"/>
 		</item>
 		<item>
@@ -74,7 +88,7 @@
 			<dc:creator>
 				<![CDATA[BDN]]>
 			</dc:creator>
-			<pubDate>05/12/2022</pubDate>
+			<pubDate>12/05/2022</pubDate>
 			<media:content medium="image" url="https://baodaigov.github.io/assets/image/quoc_gia_bao_dai_dang_thu_nghiem_cuoc_phong_ten_lua.jpg"/>
 		</item>
 		<item>
@@ -88,7 +102,7 @@
 			<dc:creator>
 				<![CDATA[BDN]]>
 			</dc:creator>
-			<pubDate>01/12/2022</pubDate>
+			<pubDate>12/01/2022</pubDate>
 			<media:content medium="image" url="https://baodaigov.github.io/assets/image/chnd_bao_dai_ban_canh_cao_tau_quoc_gia_bao_dai.jpg"/>
 		</item>
 		<item>
@@ -102,7 +116,7 @@
 			<dc:creator>
 				<![CDATA[BDN]]>
 			</dc:creator>
-			<pubDate>29/11/2022</pubDate>
+			<pubDate>11/29/2022</pubDate>
 			<media:content medium="image" url="https://baodaigov.github.io/assets/image/chinh_phu_phap_giam_sat_dien_tap_hat_nhan.jpg"/>
 		</item>
 	</channel>
