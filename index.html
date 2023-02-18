@@ -93,7 +93,7 @@
     // ]]>
   </script>
   <style>
-    .news_placeholder{background:#ededed;border-left: 1px solid #bebebe !important;border-top: 1px solid #bebebe !important;border-right: 1px solid #bebebe !important;padding:9px 7px;color:#004080!important;font-size:0.75em;font-family:"GG Sans Bold", Arial, Helvetica, sans-serif;border-top-left-radius:6px;border-top-right-radius:6px;width:130px;}.news_block{height: 470px;border-bottom: 1px solid #bebebe !important;}.news{animation:fade .5s}@keyframes fade{0%{opacity:0;}100%{opacity:1;}}.news>p{font-size:13.5px;line-height:1.5;}.ban_do_placeholder{background: #ededed;border-left: 1px solid #bebebe !important;border-top: 1px solid #bebebe !important;border-right: 1px solid #bebebe !important;padding: 9px 7px;color: #004080!important;font-size: 0.75em;font-family:"GG Sans Bold", Arial, Helvetica, sans-serif;text-align:center;}.ban_do{border-left: 2px solid #bebebe !important;border-bottom: 2px solid #bebebe !important;border-right: 2px solid #bebebe !important;}
+    .news_placeholder{background:#ededed;border-left: 1px solid #bebebe !important;border-top: 1px solid #bebebe !important;border-right: 1px solid #bebebe !important;padding:9px 7px;color:#004080!important;font-size:0.75em;font-family:"GG Sans Bold", Arial, Helvetica, sans-serif;border-top-left-radius:6px;border-top-right-radius:6px;width:130px;}.news_block{height: 470px;border-bottom: 1px solid #bebebe !important;}.news{animation:fade .5s}@keyframes fade{0%{opacity:0;}100%{opacity:1;}}.news-disappear{animation:fadeout .5s}@keyframes fadeout{0%{opacity:1}100%{opacity:0}}.news>p{font-size:13.5px;line-height:1.5;}.ban_do_placeholder{background: #ededed;border-left: 1px solid #bebebe !important;border-top: 1px solid #bebebe !important;border-right: 1px solid #bebebe !important;padding: 9px 7px;color: #004080!important;font-size: 0.75em;font-family:"GG Sans Bold", Arial, Helvetica, sans-serif;text-align:center;}.ban_do{border-left: 2px solid #bebebe !important;border-bottom: 2px solid #bebebe !important;border-right: 2px solid #bebebe !important;}
   </style>
 </head><body style="padding:0px;margin:0px;" >
   <div class="wrapper">
@@ -281,7 +281,7 @@ Tổng thống Joe Biden hết lòng khen ngợi các phi công đã hoàn thàn
                 slideIndex++;
                 if (slideIndex > slides.length) {slideIndex = 1}
                 slides[slideIndex-1].style.display = "block";
-                setTimeout(showSlides, 7000); // Change image every 7 secs
+                setTimeout(showSlides, 7000);
               }
               </script>
             </div>
