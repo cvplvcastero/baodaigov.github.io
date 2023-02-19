@@ -11,8 +11,7 @@ function checkHostElement(){
 $(function(){
     if(window.location.host.includes("127.0.0.1") || window.location.host.includes("localhost")){
         checkHostElement();
-        // this element will be appeared if the url is localhost
-        // otherwise mobile.js will be activated
+        // this function will run if the url is localhost
     } else {
         var script = document.createElement("script");
         script.type = "text/javascript";
